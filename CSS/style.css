@@ -1,0 +1,57 @@
+.sectionone{
+    height: 100vh;
+    width: 50%;
+    color: white;
+    background: linear-gradient(180deg, pink, purple);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    position: absolute;
+    left: 25%;
+    border-radius: 15px;
+}
+.sectionone input{
+    border: none;
+    height: 35px;
+    width: 30%;
+    background-color: aliceblue;
+    color: #000;
+    border-radius: 5px;
+    text-align: center;
+}
+::placeholder{
+    color: #000;
+    font-family: monospace, sans-serif;
+    padding-left: 20px;
+    font-weight: 600;
+}
+.sectionone button{
+    cursor: pointer;
+    padding: 10px 10px;
+    border: none;
+    font-weight: 700;
+    color: #000;
+    border-radius: 15px;
+}
+.sectionone button:hover{
+    color: white;
+    background-color: blue;
+}
+.sectionone label{
+    font-family: monospace, sans-serif;
+    font-weight: 600;
+}
+.sectionone h1{
+    font-family: monospace, sans-serif;
+    font-size: 18px;
+}
+.sectionone span{
+    font-style: italic;
+    color: rgb(0, 4, 255);
+    font-weight: 700;
+}
+.sectionone p{
+    font-family: monospace, sans-serif;
+    font-weight: 600;
+}
